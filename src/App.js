@@ -6,7 +6,16 @@ function App() {
     <div className="App">
       <h1>Weather App</h1>
       <Weather />
-      <p>Code</p>
+      <p>
+        Open-source{" "}
+        <a
+          href="https://github.com/gabibble/my-react-weather-app.git"
+          target="_blank"
+        >
+          code
+        </a>{" "}
+        by Julia Giebultowicz
+      </p>{" "}
     </div>
   );
 }
